@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - GhostStack
+  - Interactable
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Ground
+  - Player
+  - Obstacle
+  - Block
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Ocean
+    uniqueID: 479642105
+    locked: 0
+  - name: Un_Ground
+    uniqueID: 919334607
+    locked: 0
+  - name: Ground
+    uniqueID: 4247344539
+    locked: 0
+  - name: Grass
+    uniqueID: 2671254001
+    locked: 0
+  - name: Shadow
+    uniqueID: 1357234491
+    locked: 0
+  - name: UserBlock
+    uniqueID: 461925797
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Tree&Rock
+    uniqueID: 2106769463
+    locked: 0
+  - name: UI
+    uniqueID: 730255257
+    locked: 0
+  m_RenderingLayers:
+  - Default

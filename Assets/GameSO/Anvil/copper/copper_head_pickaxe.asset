@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74b386384605be54b88e415cd5f7ca47, type: 3}
+  m_Name: copper_head_pickaxe
+  m_EditorClassIdentifier: 
+  Input:
+  - {fileID: 11400000, guid: f67f489ba57bf494880959e0abb988fb, type: 2}
+  - {fileID: 11400000, guid: f67f489ba57bf494880959e0abb988fb, type: 2}
+  - {fileID: 11400000, guid: f67f489ba57bf494880959e0abb988fb, type: 2}
+  Output: {fileID: 11400000, guid: 90ab1e39b4b9c574d8e680eb5eef6146, type: 2}

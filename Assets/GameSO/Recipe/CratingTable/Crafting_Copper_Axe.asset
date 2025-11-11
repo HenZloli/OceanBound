@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 658eb7f5795eb6d4683421bf70266309, type: 3}
+  m_Name: Crafting_Copper_Axe
+  m_EditorClassIdentifier: 
+  ingredients:
+  - item: {fileID: 11400000, guid: 01cdd2e5a608b5b42bde031f4e83b694, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: d9eced5782be8704b824d5f54acc8c78, type: 2}
+    amount: 2
+  resultItem: {fileID: 11400000, guid: 8d5d9837223654342a7182bbfad0c79b, type: 2}
+  resultAmount: 1
