@@ -19,6 +19,9 @@ public class ArmorManager : MonoBehaviour
     void Awake()
     {
         instance = this;
+    }else{
+        DestroyOnLoad(gameObject);
+        Debug.Log("Khi chuyển screen thì sẽ lưu lại gameObject");
     }
 
     public void EquipArmor(InventoryItem item)
