@@ -32,7 +32,6 @@ public abstract class blockBase : MonoBehaviour
     {
         if (tool == null || tool.actionType != requiredTool)
         {
-            // Debug.Log(blockName + " cần tool hợp lệ để phá  hoặc cấp độ của tool quá thấp");
             return;
         }
 
@@ -42,7 +41,6 @@ public abstract class blockBase : MonoBehaviour
 
         Debug.Log(blockName + " còn " + currentHardness + " HP");
 
-        // Flash trắng
         if (sr != null)
             StartCoroutine(HitFlash());
 
@@ -79,7 +77,7 @@ public abstract class blockBase : MonoBehaviour
 
         Destroy(gameObject);
     }
-    
+    //DAX FIX 
     protected void Shake(float x, float y)
     {
         if (impulse != null)
